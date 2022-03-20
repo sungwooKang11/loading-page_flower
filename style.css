@@ -9,7 +9,7 @@
     grid-template-rows: 357px 30px 20px 30px 357px;
     justify-items: center;
     align-items: center;
-    animation: rotate_flower 5s linear infinite;
+    /* animation: rotate_flower 5s linear infinite; */
 }
 
 @keyframes rotate_flower {
@@ -20,7 +20,7 @@
 
 .core {
     background-color: #FFE164;
-    width: 33px; height: 33px;
+    width: 30px; height: 30px;
     border-radius: 50%;
     grid-column: 3/ 4;
     grid-row: 3/ 4;
@@ -29,48 +29,48 @@
 
 .topL {
     background-color: #F18C93;
-    width: 36px; height: 36px;
+    width: 30px; height: 30px;
     grid-column: 3/ 4;
     grid-row: 2/ 3;
-    /* border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; */
-    border-radius: 50%;
+    border-bottom-right-radius: 10px;
+    /* border-radius: 50%; */
 }
 
 .bottomL {
     background-color: #F18C93;
-    width: 36px; height: 36px;
+    width: 30px; height: 30px;
     grid-column: 3/ 4;
     grid-row: 4/ 5;
-    /* border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px; */
-    border-radius: 50%;
+    border-top-right-radius: 10px;
+    /* border-radius: 50%; */
 }
 
 .leftL {
     background-color: #F18C93;
-    width: 36px; height: 36px;
+    width: 30px; height: 30px;
     grid-column: 2/ 3;
     grid-row: 3/ 4;
-    /* border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px; */
-    border-radius: 50%;
+    border-bottom-right-radius: 10px;
+    /* border-radius: 50%; */
 }
 
 .rightL {
     background-color: #F18C93;
-    width: 36px; height: 36px;
+    width: 30px; height: 30px;
     grid-column: 4/ 5;
     grid-row: 3/ 4;
-    /* border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px; */
-    border-radius: 50%;
+    border-bottom-left-radius: 10px;
+    /* border-radius: 50%; */
 }
