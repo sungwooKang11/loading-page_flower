@@ -27,7 +27,7 @@ body {
 
 .core {
     background-color: #FFE164;
-    width: 30px; height: 30px;
+    width: 33px; height: 33px;
     border-radius: 50%;
     grid-column: 3/ 4;
     grid-row: 3/ 4;
@@ -36,48 +36,48 @@ body {
 
 .topL {
     background-color: #F18C93;
-    width: 30px; height: 30px;
+    width: 35px; height: 35px;
     grid-column: 3/ 4;
     grid-row: 2/ 3;
-    border-top-left-radius: 15px;
+    /* border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    /* border-radius: 50%; */
+    border-bottom-right-radius: 10px; */
+    border-radius: 50%;
 }
 
 .bottomL {
     background-color: #F18C93;
-    width: 30px; height: 30px;
+    width: 35px; height: 35px;
     grid-column: 3/ 4;
     grid-row: 4/ 5;
-    border-bottom-left-radius: 15px;
+    /* border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    /* border-radius: 50%; */
+    border-top-right-radius: 10px; */
+    border-radius: 50%;
 }
 
 .leftL {
     background-color: #F18C93;
-    width: 30px; height: 30px;
+    width: 35px; height: 35px;
     grid-column: 2/ 3;
     grid-row: 3/ 4;
-    border-top-left-radius: 15px;
+    /* border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    /* border-radius: 50%; */
+    border-bottom-right-radius: 10px; */
+    border-radius: 50%;
 }
 
 .rightL {
     background-color: #F18C93;
-    width: 30px; height: 30px;
+    width: 35px; height: 35px;
     grid-column: 4/ 5;
     grid-row: 3/ 4;
-    border-top-right-radius: 15px;
+    /* border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    /* border-radius: 50%; */
+    border-bottom-left-radius: 10px; */
+    border-radius: 50%;
 }
