@@ -1,3 +1,10 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     background-color: #FDE7E2;
     width: 368px; height: 796px;
@@ -9,7 +16,7 @@
     grid-template-rows: 357px 30px 20px 30px 357px;
     justify-items: center;
     align-items: center;
-    /* animation: rotate_flower 5s linear infinite; */
+    animation: rotate_flower 5s linear infinite;
 }
 
 @keyframes rotate_flower {
