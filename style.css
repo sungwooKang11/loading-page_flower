@@ -38,6 +38,10 @@ body {
     z-index: 1;
 }
 
+.core.disappear {
+    display: none;
+}
+
 .topL {
     background-color: #F18C93;
     width: 35px; height: 35px;

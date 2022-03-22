@@ -1,4 +1,5 @@
 const actionFl = document.querySelector(".flowerCon");
+const core = document.querySelector(".core");
 const topL = document.querySelector(".topL");
 const leftL = document.querySelector(".leftL");
 const rightL = document.querySelector(".rightL");
@@ -11,6 +12,7 @@ const handleClick = () => {
     leftL.classList.toggle("active");
     rightL.classList.toggle("active");
     bottomL.classList.toggle("active");
+
 }
 
 actionFl.addEventListener("click", handleClick);
