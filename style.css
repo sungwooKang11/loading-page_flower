@@ -10,7 +10,7 @@ body {
     width: 368px; height: 796px;
     display: flex;
     align-items: center;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .flowerCon {
