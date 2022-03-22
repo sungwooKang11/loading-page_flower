@@ -8,12 +8,16 @@ body {
 .container {
     background-color: #FDE7E2;
     width: 368px; height: 796px;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
 }
 
 .flowerCon {
+    width: 368px; height: 368px;
     display: grid;
     grid-template-columns: 144px 30px 20px 30px 144px;
-    grid-template-rows: 357px 30px 20px 30px 357px;
+    grid-template-rows: 144px 30px 20px 30px 144px;
     justify-items: center;
     align-items: center;
     animation: rotate_flower 5s linear infinite;
@@ -44,11 +48,11 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; */
     border-radius: 50%;
+    transition: 1s;
 }
 
-.topL:hover {
-    transform: translateX() translateY();
-
+.topL.active {
+    transform: translateX(0px) translateY(-500px);
 }
 
 .bottomL {
@@ -61,6 +65,11 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
     border-radius: 50%;
+    transition: 1s;
+}
+
+.bottomL.active {
+    transform: translateX(0px) translateY(500px);
 }
 
 .leftL {
@@ -73,6 +82,11 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px; */
     border-radius: 50%;
+    transition: 1s;
+}
+
+.leftL.active {
+    transform: translateX(-500px) translateY(0px);
 }
 
 .rightL {
@@ -85,4 +99,9 @@ body {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px; */
     border-radius: 50%;
+    transition: 1s;
+}
+
+.rightL.active {
+    transform: translateX(500px) translateY(0px);
 }
